@@ -16,7 +16,7 @@ function App() {
     {/* //* Header muestra el titulo de la App */}
       <Header />
        {/* //* Hace el cambio de pantalla cuando el usuario ingresa la frase, si no hay frase se mantiene en Form y si la hay cambia a Ahorcado */}
-      {state === "" ? <Form setPhrase= {addPhraseHandler} /> : <Ahorcado />}
+      {state === "" ? <Form setPhrase= {addPhraseHandler} /> : <Ahorcado phrase={state} />}
       {/* //*Muestra el Copyright */}
       <Footer />
     </>
