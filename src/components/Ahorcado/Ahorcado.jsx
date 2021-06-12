@@ -1,5 +1,12 @@
+import React, {useState} from "react";
+
 const Ahorcado = props =>{
-    return('');
+    const [state, setState] = useState()
+    return(
+        <>
+            
+        </>
+    );
 }
 
 export default Ahorcado;
